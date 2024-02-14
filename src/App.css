@@ -7,13 +7,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
 .header .inputContainer {
   display: flex;
   flex-direction: column;
 }
 
 .header {
-  flex: 30%;
+  flex: 25%;
   background-color: seagreen;
   width: 100%;
   display: flex;
@@ -42,4 +47,10 @@
   cursor: pointer;
   background: #222222;
   color: aliceblue;
+}
+
+.todoList {
+  flex: 75%;
+  width: 100%;
+  background-color: azure;
 }
